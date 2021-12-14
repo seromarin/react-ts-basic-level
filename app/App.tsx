@@ -1,5 +1,12 @@
 import React from 'react';
+import AddUser from './components/Users/AddUser';
 
-const App = () => <h1>Hello React</h1>;
+const App = () => {
+  return (
+    <>
+      <AddUser />
+    </>
+  );
+};
 
 export default App;
